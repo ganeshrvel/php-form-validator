@@ -1,4 +1,3 @@
-# wp_php_form_validator
 **Wordpress PHP form validator v1.02**
 
 Author: Ganesh Rathinavel

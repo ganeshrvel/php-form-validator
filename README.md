@@ -1,15 +1,12 @@
 # wp_php_form_validator
 **Wordpress PHP form validator**
-
 Author: Ganesh Rathinavel
-
 Requirements: PHP 5, Wordpress
-
 URL: [https://github.com/ganeshrvel/wp_php_form_validator](https://github.com/ganeshrvel/wp_php_form_validator)
 
-> Note: Feel free to convert this library for standalone version of php
-> or for other frameworks by modifying/editing the wordpress database
-> part.
+> Feel free to convert this library into a standalone version or for
+> other PHP frameworks by modifying/deleting the WordPress database
+> dependencies.
 
 
 Import the library file:
@@ -32,6 +29,8 @@ Execute:
        //continue
     }
     
+
+
 ----------
 Errors:
 

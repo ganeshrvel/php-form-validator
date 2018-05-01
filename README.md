@@ -10,27 +10,28 @@ URL: [https://github.com/ganeshrvel/wp_php_form_validator](https://github.com/ga
 > other PHP frameworks by modifying/deleting the WordPress database
 > dependencies.
 
-
-    Import the library file:
-    require_once('form-validator.php')
+```php
+    #Import the library file:
+    require_once('form-validator.php');
+```
 
 #### Execute:
 
-   ```php
- $vObj = new FormValidator();
-    
-    $vObj->set_rules( $options_key_1 );
-    $vObj->set_rules( $options_key_2 );
-    
-    #Check 'Example' Section for $options
-    
-    if ( $vObj->run() == false ) {
-       echo "error";
-       //dont continue
-    } else {
-       echo "success";
-       //continue
-    }
+```php
+	$vObj = new FormValidator();
+	
+	$vObj->set_rules( $options_key_1 );
+	$vObj->set_rules( $options_key_2 );
+	
+	#Check 'Example' Section for $options
+	
+	if ( $vObj->run() == false ) {
+	   echo "error";
+	   //dont continue
+	} else {
+	   echo "success";
+	   //continue
+	}
 ```
     
 

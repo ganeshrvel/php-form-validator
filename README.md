@@ -1,4 +1,4 @@
-**Wordpress PHP form validator v1.02**
+# Wordpress PHP form validator v1.02
 
 Author: Ganesh Rathinavel
 
@@ -11,12 +11,13 @@ URL: [https://github.com/ganeshrvel/wp_php_form_validator](https://github.com/ga
 > dependencies.
 
 
-Import the library file:
-require_once('form-validator.php')
+    Import the library file:
+    require_once('form-validator.php')
 
-Execute:
+#### Execute:
 
-    $vObj = new FormValidator();
+   ```php
+ $vObj = new FormValidator();
     
     $vObj->set_rules( $options_key_1 );
     $vObj->set_rules( $options_key_2 );
@@ -30,12 +31,14 @@ Execute:
        echo "success";
        //continue
     }
+```
     
 
 
 ----------
-Errors:
+#### Errors:
 
+```php
     /**
      * shows all validation errors
      */
@@ -68,8 +71,9 @@ Errors:
      */
     echo $vObj->error_field_id;
     
+```
 ----------
-
+```php
     /**
      * @param $param : form input field name
      * @param bool $trim : trim the output (only for non array (String) inputs)
@@ -83,8 +87,9 @@ Errors:
     echo $vObj->request( 'age1', $trim = false, $isArray = false, $sql_escape = false );
     echo $vObj->files( 'file1', $trim = false, $isArray = false, $sql_escape = false );
 
+```
 ----------
-
+```php
     /**
      * pass a custom array value instead of form input parameters; 
      * 'type' won't be valid after $custom_array is set
@@ -96,9 +101,11 @@ Errors:
     );
     $vObj = new FormValidator( $custom_array_validate );
 
+```
 ----------
-Example:
 
+#### Example:
+```php
     $vObj->set_rules( array (
        'name'                  => 'age1', //HTML form 'field name'; allow_array supported
        'placeholder'           => 'Age 1', //used for displaying errors; allow_array supported
@@ -197,3 +204,5 @@ Example:
        'valid_ip'              => true,
        'sql_escape'            => true,
     ) );
+
+```

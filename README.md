@@ -2,7 +2,7 @@
 
 Author: Ganesh Rathinavel
 
-Requirements: PHP 5, Wordpress
+Requirements: PHP 5+
 
 URL: [https://github.com/ganeshrvel/php-form-validator](https://github.com/ganeshrvel/php-form-validator)
 

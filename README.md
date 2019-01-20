@@ -1,17 +1,18 @@
 # PHP Form Validator
 
-Author: Ganesh Rathinavel
+- Author: [Ganesh Rathinavel](https://www.linkedin.com/in/ganeshrvel "Ganesh Rathinavel")
+- License: [MIT](https://github.com/ganeshrvel/php-form-validator/blob/master/LICENSE "MIT")
+- Repo URL: [https://github.com/ganeshrvel/php-form-validator](https://github.com/ganeshrvel/php-form-validator "https://github.com/ganeshrvel/php-form-validator")
+- Contacts: ganeshrvel@outlook.com
+- Requirements: PHP 5+
 
-Requirements: PHP 5+
-
-URL: [https://github.com/ganeshrvel/php-form-validator](https://github.com/ganeshrvel/php-form-validator)
+## Usage
 
 ```php
-    #Import the library file:
+    # import the library file as
     require_once('form-validator.php');
 ```
 
-#### Execute:
 
 ```php
 	$vObj = new FormValidator();
@@ -203,3 +204,24 @@ URL: [https://github.com/ganeshrvel/php-form-validator](https://github.com/ganes
     ) );
 
 ```
+
+ ### Contribute
+- Fork the repo and create your branch from master.
+- Update the documentation if needed.
+- Issue a pull request!
+
+When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/ganeshrvel/php-form-validator/blob/master/LICENSE "MIT License") that covers the project. Feel free to contact the maintainers if that's a concern.
+
+
+### Buy me a coffee
+Help me keep the app FREE and open for all.
+Paypal me: [paypal.me/ganeshrvel](https://paypal.me/ganeshrvel "paypal.me/ganeshrvel")
+
+### Contacts
+Please feel free to contact me at ganeshrvel@outlook.com
+
+### License
+electron-react-redux-advanced-boilerplate | Electron-React-Redux Advanced Boilerplate is released under [MIT License](https://github.com/ganeshrvel/php-form-validator/blob/master/LICENSE "MIT License").
+
+Copyright © 2018 - 2019 Ganesh Rathinavel
+

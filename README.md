@@ -1,14 +1,10 @@
-# Wordpress PHP form validator v1.02
+# PHP Form Validator
 
 Author: Ganesh Rathinavel
 
 Requirements: PHP 5, Wordpress
 
-URL: [https://github.com/ganeshrvel/wp_php_form_validator](https://github.com/ganeshrvel/wp_php_form_validator)
-
-> Feel free to convert this library into a standalone version or for
-> other PHP frameworks by modifying/deleting the WordPress database
-> dependencies.
+URL: [https://github.com/ganeshrvel/php-form-validator](https://github.com/ganeshrvel/php-form-validator)
 
 ```php
     #Import the library file:
@@ -118,12 +114,12 @@ URL: [https://github.com/ganeshrvel/wp_php_form_validator](https://github.com/ga
        'matches'               => array ( 'The matching placeholder', $vObj->get( 'name2' ) ), //allow_array supported
        'differs'               => array ( 'The differing placeholder', $vObj->get( 'name3' ) ), //allow_array supported
        'is_duplicate'          => array (
-          'table_name'        => 'pdg_user_info',//wp db table name
+          'table_name'        => 'pdg_user_info',//wordpress db table name
           'column_name'       => 'mobile_no',
           'primary_key'       => 'personal_info_id',
           'primary_key_value' => 3608,
        ),
-       'is_unique'             => array ( 'wp_wordpress_user', 'email' ), //allow_array supported
+       'is_unique'             => array ( 'wp_wordpress_user', 'email' ), //wordpress support available; allow_array supported
        'custom_error'          => "Some custom error message", //allow_array supported
        'min_length'            => 2, //allow_array supported
        'max_length'            => 5, //allow_array supported
@@ -173,7 +169,7 @@ URL: [https://github.com/ganeshrvel/wp_php_form_validator](https://github.com/ga
        'allow_array'           => false,
        'matches'               => array ( 'Age 1', $vObj->get( 'age1' ) ),
        'differs'               => array ( 'Age 3', $vObj->get( 'age3' ) ),
-       'is_unique'             => array ( 'wp_wordpress_user', 'email' ),
+       'is_unique'             => array ( 'wp_wordpress_user', 'email' ), //wordpress support available; wordpress db table name
        'min_length'            => 2,
        'max_length'            => 5,
        'exact_length'          => 4,

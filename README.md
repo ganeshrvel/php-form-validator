@@ -114,7 +114,7 @@ URL: [https://github.com/ganeshrvel/php-form-validator](https://github.com/ganes
        'matches'               => array ( 'The matching placeholder', $vObj->get( 'name2' ) ), //allow_array supported
        'differs'               => array ( 'The differing placeholder', $vObj->get( 'name3' ) ), //allow_array supported
        'is_duplicate'          => array (
-          'table_name'        => 'pdg_user_info',//wordpress db table name
+          'table_name'        => 'pdg_user_info',//wordpress support available; wordpress db table name
           'column_name'       => 'mobile_no',
           'primary_key'       => 'personal_info_id',
           'primary_key_value' => 3608,

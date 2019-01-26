@@ -223,5 +223,5 @@ Please feel free to contact me at ganeshrvel@outlook.com
 ### License
 electron-react-redux-advanced-boilerplate | Electron-React-Redux Advanced Boilerplate is released under [MIT License](https://github.com/ganeshrvel/php-form-validator/blob/master/LICENSE "MIT License").
 
-Copyright © 2018 - 2019 Ganesh Rathinavel
+Copyright © 2018-Present Ganesh Rathinavel
 
